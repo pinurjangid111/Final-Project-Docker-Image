@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>StudentResult</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>StudentResult</name>
 	<description>Student Result for Spring Boot</description>
 	<properties>
@@ -41,8 +42,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
+	<finalName>StudentResult</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
